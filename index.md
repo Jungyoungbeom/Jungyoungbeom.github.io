@@ -7,7 +7,7 @@
 ### 3. 대표 이미지 (#3)
 ### 4. 컨셉 & 대표이미지 기반 작품묘사 (#4)
 ### 5. <롤링 락> 구성 요소 (#5)
-### 6. 
+### 6. 게임 시스템 디자인 (#6)
 
 
 # [컨셉] <a name='1'></a>
@@ -145,3 +145,24 @@
 1. 모바일 환경을 고려한 LOW POLYGON모델링 제작
 2. 모바일 환경에 맞는 해상도 설정
 
+# [게임 시스템 디자인] <a name='6'></a>
+
+|연번|오브젝트 이름|오브젝트 이미지|
+|1|바위(Rock) / 플레이어|<img src="./img/플레이어.PNG">|
+|2|성문(Castle Gate) / 승리조건|<img src="./img/성문.PNG">|
+|3|성벽(Rampart)|<img src="./img/성벽.PNG">|
+|4|주민(Citizen) / 적|<img src="./img/주민.PNG">|
+|5|나무(Tree)|<img src="./img/나무.PNG">|
+|6|가시함정(Trap)|<img src="./img/가시함정.PNG">|
+|7|풍차(Windmill)|<img src="./img/풍차.PNG">|
+|8|폭탄(Bomb)|<img src="./img/폭탄.PNG">|
+|9|경사로(Slope)|<img src="./img/경사로.PNG">|
+|10|벙커(Bunker)|<img src="./img/벙커.PNG">|
+|11|스테이지(Select Stage)|<img src="./img/스테이지.PNG">|
+|12|환경설정(Setting)|<img src="./img/환경설정.PNG">|
+|13|메뉴(Menu)|<img src="./img/메뉴.PNG">|
+|14|상점(Shop)|<img src="./img/상점.PNG">|
+|15|조이스틱(JoyStick)|<img src="./img/조이스틱.PNG">|
+
+
+	     
