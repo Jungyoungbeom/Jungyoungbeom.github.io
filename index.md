@@ -251,7 +251,7 @@
 
 # [FlowChat]<a name='7'></a>
 
-<img src="./img/FlowChat.png">
+<img src="./img/플로우챗.png">
 <img src="./img/키 이벤트.png">
 
 # [요구사항]<a name='8'></a>
