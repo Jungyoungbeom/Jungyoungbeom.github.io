@@ -251,8 +251,8 @@
 
 # [FlowChat]<a name='7'></a>
 
-|<img src="./img/FlowChat.png">|
-|<img src="./img/키 이벤트.png">|
+<img src="./img/FlowChat.png">
+<img src="./img/키 이벤트.png">
 
 # [요구사항]<a name='8'></a>
 ### 1. 모델링 및 텍스쳐 제작
