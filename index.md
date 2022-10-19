@@ -251,7 +251,10 @@
 
 # [FlowChat]<a name='7'></a>
 
+## 순서도
 <img src="./img/플로우챗.png">
+
+## 키 이벤트
 <img src="./img/키 이벤트.png">
 
 # [요구사항]<a name='8'></a>
