@@ -60,8 +60,7 @@
 # [관련 이미지 & 동영상] <a name='2'></a>
 
 - 이미지  
-  <img src="./img/관련이미지.png
-  ">
+  <img src="./img/관련이미지.png">
 - 동영상
   [![](./img/영상링크.png)](https://www.youtube.com/watch?v=uZyJKFHiTP4)
 
