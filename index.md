@@ -1,4 +1,4 @@
-# 프로젝트명: Rollring Rock
+# 프로젝트명: Rollring Rock(정영범)
 
 # [목차]
 
