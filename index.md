@@ -152,7 +152,7 @@
 ## 1. 게임 오브젝트 분해 (구성요소 분석)
 |연번|오브젝트 이름|오브젝트 이미지|
 |:----:|:----:|:----:|
-|1|바위(Rock)/플레이어|<img src="./img/바위.png">|
+|1|바위(Rock),플레이어|<img src="./img/바위.png">|
 |2|성문(Castle Gate)/승리조건|<img src="./img/성문.png">|
 |3|성벽(Rampart)|<img src="./img/성벽.png">|
 |4|주민(Citizen)/적|<img src="./img/주민1.png"><img src="./img/주민2.png"><img src="./img/주민3.png">|
