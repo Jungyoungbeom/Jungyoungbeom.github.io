@@ -439,22 +439,22 @@
 
 ## [1주차 완료 사항]
 ### 성벽
-<img src="./img/성벽.png">
+<img src="./img/성벽모델링.png">
 ###성채
-<img src="./img/성채.png">
+<img src="./img/성채모델링.png">
 ###풍차
-<img src="./img/풍차.png">
+<img src="./img/풍차모델링.png">
 ## [2주차 완료 사항]
 ### 나무
-<img src="./img/나무.png">
+<img src="./img/나무모델링.png">
 ### 성문
-<img src="./img/성문.png">
+<img src="./img/성문모델링.png">
 ### 풍차
-<img src="./img/풍차.png">
+<img src="./img/풍차모델링.png">
 ### 스테이지
-<img src="./img/스테이지.png">
+<img src="./img/스테이지모델링.png">
 ### 함정
-<img src="./img/함정.png">
+<img src="./img/함정모델링.png">
 ## [3주차 완료 사항]
 ## [4주차 완료 사항]
 ## [5주차 완료 사항]
