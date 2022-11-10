@@ -481,7 +481,7 @@
 
 ### 1스테이지 텍스쳐
 <img src="./img/스테이지_텍스쳐.png">
-<img src="./img/stage 1.png">
+<img src="./img/stage_1.png">
 ## [4주차 완료 사항]
 ## [5주차 완료 사항]
 ## [6주차 완료 사항]
