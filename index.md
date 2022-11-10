@@ -466,21 +466,21 @@
 
 ## [3주차 완료 사항]
 ### 주민
-<img src="./img/주민 모델링.png">
+<img src="./img/주민_모델링.png">
 
 ### 플레이어/바위
 <img src="./img/플레이어 바위 모델링.png">
 
 ### 성벽 텍스쳐
-<img src="./img/성벽 텍스쳐.png">
+<img src="./img/성벽_텍스쳐.png">
 <img src="./img/rampart_tex.png">
 
 ### 성채 텍스쳐
-<img src="./img/성채 텍스쳐.png">
+<img src="./img/성채_텍스쳐.png">
 <img src="./img/citadel_tex.png">
 
 ### 1스테이지 텍스쳐
-<img src="./img/스테이지 텍스쳐.png">
+<img src="./img/스테이지_텍스쳐.png">
 <img src="./img/stage 1.png">
 ## [4주차 완료 사항]
 ## [5주차 완료 사항]
