@@ -495,7 +495,7 @@
 <img src="./img/Windmill_tex.png">
 
 ### 성문 텍스쳐
-<img src="./img/성벽_텍스쳐.png">
+<img src="./img/성문_텍스쳐.png">
 <img src="./img/CastleGate_tex.png">
 
 ## [5주차 완료 사항]
