@@ -419,15 +419,15 @@
 
 ### 기본 텍스쳐 제작
 1. ~~1스테이지 맵~~
-2. 성벽
-3. 성채
+2. 성벽 80%
+3. 성채 80%
 
 ## [4주차]
 ### 기본 텍스쳐 제작
 1. 주민/적
-2. 성문
-3. 풍차
-4. 플레이어/바위
+2. ~~성문~~
+3. ~~풍차~~
+4. ~~플레이어/바위~~
 
 ## [5주차]
 ### 기본 텍스쳐 제작
@@ -483,6 +483,20 @@
 <img src="./img/스테이지_텍스쳐.png">
 <img src="./img/stage 1_tex.png">
 ## [4주차 완료 사항]
+### 플레이어 바위 텍스쳐
+<img src="./img/플레이어_텍스쳐.png">
+<img src="./img/player_tex.png">
+<img src="./img/Player_nm_Default_normal.png">
+<img src="./img/Player_nm_Default_ao.png">
+
+### 풍차 텍스쳐
+<img src="./img/풍차_텍스쳐.png">
+<img src="./img/Windmill_tex.png">
+
+### 성문 텍스쳐
+<img src="./img/성벽_텍스쳐.png">
+<img src="./img/CastleGate_tex.png">
+
 ## [5주차 완료 사항]
 ## [6주차 완료 사항]
 
