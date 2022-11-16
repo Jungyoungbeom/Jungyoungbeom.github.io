@@ -482,6 +482,7 @@
 ### 1스테이지 텍스쳐
 <img src="./img/스테이지_텍스쳐.png">
 <img src="./img/stage 1_tex.png">
+
 ## [4주차 완료 사항]
 ### 플레이어 바위 텍스쳐
 <img src="./img/플레이어_텍스쳐.png">
