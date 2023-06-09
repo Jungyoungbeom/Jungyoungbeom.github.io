@@ -9,9 +9,7 @@
 ### 5. [롤링 락 구성 요소](#구성요소)
 ### 6. [게임 시스템 디자인](#시스템디자인)
 ### 7. [FlowChat](#FlowChat)
-### 8. [스토리보드](#스토리보드)
-### 9. [요구사항](#요구사항)
-### 10. [프로토타입 개발 요구 사항 (6주개발) ](#6주개발)
+### 8. [요구사항](#요구사항)
 
 # [컨셉] <a name=''></a>
 
@@ -130,18 +128,19 @@
 |연번|오브젝트 이름|오브젝트 이미지|
 |:----:|:----:|:----:|
 |1|바위(Rock),플레이어|<img src="./img/바위.png">|
-|2|성문(Castle Gate)/승리조건|<img src="./img/성문.png">|
+|2|성문(Castle Gate)|<img src="./img/성문.png">|
 |3|성벽(Rampart)|<img src="./img/성벽.png">|
-|4|주민(Citizen)/적|<img src="./img/주민1.png"><img src="./img/주민2.png"><img src="./img/주민3.png">|
+|4|새집(Bird House)|<img src="./img/둥지집.png">|
 |5|나무(Tree)|<img src="./img/나무.png">|
 |6|가시함정(Trap)|<img src="./img/가시함정.png">|
 |7|풍차(Windmill)|<img src="./img/풍차.png">|
 |8|폭탄(Bomb)|<img src="./img/폭탄.png">|
 |9|경사로(Slope)|<img src="./img/경사로.png">|
-|10|벙커(Bunker)|<img src="./img/벙커.png">|
+|10|황금 새(Gold Bird)|<img src="./img/금새.png">|
 |11|스테이지(Select Stage)|<img src="./img/스테이지.png">|
 |12|환경설정(Setting)|<img src="./img/환경설정.png">|
 |13|메뉴(Menu)|<img src="./img/메뉴.png">|
+|14|풍차|<img src="./img/풍차.png">|
 
 ## 2. 파라미터(속성) 뽑아보기
 
@@ -234,13 +233,6 @@
 <img src="./img/키 이벤트.png">
 
 
-# [스토리보드]<a name='스토리보드'></a>
-<img src="./img/1컷.png">
-<img src="./img/2컷.png">
-<img src="./img/3컷.png">
-<img src="./img/4컷.png">
-<img src="./img/5컷.png">
-
 # [요구사항]<a name='요구사항'></a>
 ### 1. 모델링 및 텍스쳐 제작
 
@@ -248,95 +240,41 @@
 2. ~~성벽~~
 3. ~~성채~~
 4. ~~성문~~
-5. ~~주민/적~~
+5. ~~맵 배치용 바위~~
 6. ~~나무~~
 7. ~~가시함정~~
 8. ~~풍차~~
 9. ~~바위/플레이어~~
 10. ~~맵~~
+11. ~~새~~
+12. ~~스테이지 백그라운드~~
 
-### 2. 모델링 바리에이션 제작
+### 2. 건물 잔해 모델링 및 텍스쳐 제작
 
-1. ~~건물의 상태에따른 텍스쳐 바리에이션~~
-2. 건물 의 세부 장식 제작
+1. ~~성벽~~
+2. ~~성채~~
+3. ~~성문~~
+4. ~~풍차~~
+5. ~~가시함정~~
 
-### 3. 스테이지 제작 및 레벨링
+### 3. UI 제작
 
-1. 챕터별 스테이지 및 레벨링 
+ 1. ~~메인 메뉴 버튼~~
+ 2. ~~스테이지 선택 버튼~~
+ 3. ~~환경설정 이미지~~
+ 4. ~~스테이지 선택 화면~~
+ 5. ~~hp 바~~
 
-### 4. UI 제작
+### 4. 1챕터 스테이지 제작 및 레벨링
 
- 1. 메인 메뉴 버튼
- 2. 상점 버튼 이미지
- 3. 조이스틱
- 4. 환경설정 이미지
- 5. 타이틀 화면
- 6. 스테이지 선택 화면
- 7. 승리/패배 화면
- 8. 포인트 이미지
- 9. 드래그 바
+1. ~~스테이지 1 제작 및 오브젝트 ~~
+2. ~~스테이지 2 제작 및 오브젝트 ~~
+3. ~~스테이지 3 제작 및 오브젝트 ~~
 
+### 5. 포스터 제작
+<img src="./img/졸작 포스터.png">
 
-### 5. 프로그래밍 요구사항
- -게임 시작 및 한판이 끝날 때 fade in/out 효과
- -플레이어가 바위를움직임
- -점프 버튼을 누르면 바위가 위로 뛰어오름
- -바위가 지면에 닿지 않는다면 1/10의 속도로 움직임
- -카메라가 플레이어의 뒤에서 플레이어를 따라다니며 플레이어를 비춤
- -적의 구조물을 파괴한다면 파괴하면서 지나가며 파괴하지 못하면 막힘
- -상점에서 플레이어 캐릭터 정하면 재화를 사용하여 구매하기
- -플레이어 HP가 0일때  재화가 부족하면 게임 실패
- -플레이어가 적의 성문을 부수면 게임 클리어
- -벽 투과하는 셰이더 제작
- -모바일 전환
-
- -적의 구조물 파괴 시 재화획득 - 재화가 UI창으로 자동적으로 들어가는 것처럼 보이게
- -적의 구조물 파괴 시 구조물 조각내기
- -파괴된 구조물 조각 일정시간 뒤에 사라지게 하기
- 
- -적 유닛 제작
- -적 공격 및 AI 제작
-
- -게임 승리/패배 시 조건에 맞는 게임화면 출력
- -게임 타이틀 화면 제작
- -스테이지 화면 제작
- -설정창 제작
- -메뉴창 제작
-
-
-# 10. [프로토타입 개발 요구 사항 (6주개발) ]<a name='6주개발'></a>
-
-### 1. 모델링 제작
-
-1. ~~폭탄~~
-2. ~~성벽~~
-3. ~~성채~~
-4. ~~성문~~
-5. 주민/적
-6. ~~나무~~
-7. ~~가시함정~~
-8. ~~풍차~~
-9. ~~바위/플레이어~~
-10. ~~1챕터 맵~~
-
-### 2. 기본 텍스쳐 제작
-
-1. ~~폭탄~~
-2. ~~성벽~~
-3. ~~성채~~
-4. ~~성문~~
-5. ~~주민/적~~
-6. ~~나무~~
-7. ~~가시함정~~
-8. ~~풍차~~
-9. ~~바위/플레이어~~
-10. ~~1쳅터 맵~~
-
-### 3. 1챕터 스테이지 제작
-
-1. ~~1챕터 스테이지 제작~~
-
-### 4. 프로그래밍 요구사항
+## [프로그래밍 요구사항]
 
 - ~~fade in/out 효과~~
 - ~~플레이어가 적의 성문을 부수면 게임 클리어~~
@@ -357,106 +295,91 @@
 - ~~가시함정 접촉 시 플레이어 데미지 입음~~
 
 
-## [1주차]
-### 모델링 제작
-1. ~~폭탄~~
-2. ~~성벽~~
-3. ~~성채~~
+## [모델링 및 텍스쳐이미지]
 
-## [2주차]
-### 모델링 제작
-1. ~~나무~~
-2. ~~가시함정~~
-3. ~~풍차~~
-4. ~~성문~~
-5. ~~1 스테이지 맵 제작~~
-6. ~~주민/적~~
-## [3주차]
-### 모델링 제작
-1. ~~바위/플레이어~~
-
-### 기본 텍스쳐 제작
-1. ~~1스테이지 맵~~
-2. ~~성벽 80%~~
-3. ~~성채 80%~~
-
-## [4주차]
-### 기본 텍스쳐 제작
-1. ~~주민/적~~
-2. ~~성문~~
-3. ~~풍차~~
-4. ~~플레이어/바위~~
-
-## [5주차]
-### 기본 텍스쳐 제작
-1. ~~폭탄~~
-2. ~~나무~~
-3. ~~가시함정~~
-## [6주차]
-### 모델링 제작못한 텍스쳐 및 수정
-
-## [1주차 완료 사항]
 ### 성벽
 <img src="./img/성벽모델링.png">
+<img src="./img/성벽_텍스쳐.png">
+<img src="./img/rampart_tex.png">
+<img src="./img/rampart_tex_cracked1.png">
+<img src="./img/rampart_tex_cracked2.png">
 
 ### 성채
 <img src="./img/성채모델링.png">
+<img src="./img/성채_텍스쳐.png">
+<img src="./img/citadel_tex.png">
+<img src="./img/성채하이폴.png">
+<img src="./img/citadel_normal.png">
+<img src="./img/citadel_tex_cracked1.png">
+<img src="./img/citadel_tex_cracked2.png">
+
 
 ### 폭탄
 <img src="./img/폭탄모델링.png">
-
-## [2주차 완료 사항]
+<img src="./img/bomb_tex.png">
 
 ### 나무
 <img src="./img/나무모델링.png">
+<img src="./img/tree_tex.png">
 
 ### 성문
 <img src="./img/성문모델링.png">
+<img src="./img/성문_텍스쳐.png">
+<img src="./img/CastleGate_tex.png">
+<img src="./img/CastleGate_Crack_tex.png">
 
 ### 풍차
 <img src="./img/풍차모델링.png">
+<img src="./img/풍차_텍스쳐.png">
+<img src="./img/Windmill_tex.png">
 
 ### 스테이지
 <img src="./img/스테이지1모델링.png">
+<img src="./img/스테이지2모델링.png">
+<img src="./img/스테이지3모델링.png">
+<img src="./img/전체스테이지 텍스쳐.png">
+
 
 ### 함정
 <img src="./img/함정모델링.png">
-
-## [3주차 완료 사항]
-### 주민
-<img src="./img/주민 모델링.png">
+<img src="./img/thorny trap_tex.png">
 
 ### 플레이어/바위
 <img src="./img/플레이어 바위 모델링.png">
-
-### 성벽 텍스쳐
-<img src="./img/성벽_텍스쳐.png">
-<img src="./img/rampart_tex.png">
-
-### 성채 텍스쳐
-<img src="./img/성채_텍스쳐.png">
-<img src="./img/citadel_tex.png">
-
-### 1스테이지 텍스쳐
-<img src="./img/스테이지_텍스쳐.png">
-<img src="./img/stage 1_tex.png">
-
-## [4주차 완료 사항]
-### 플레이어 바위 텍스쳐
 <img src="./img/플레이어_텍스쳐.png">
 <img src="./img/player_tex.png">
 <img src="./img/Player_nm_Default_normal.png">
 <img src="./img/Player_nm_Default_ao.png">
 
-### 풍차 텍스쳐
-<img src="./img/풍차_텍스쳐.png">
-<img src="./img/Windmill_tex.png">
+### 맵배치용 바위
+<img src="./img/돌모델링.png">
+<img src="./img/돌 텍스쳐.png">
 
-### 성문 텍스쳐
-<img src="./img/성문_텍스쳐.png">
-<img src="./img/CastleGate_tex.png">
+### 새
+<img src="./img/새모델링.png">
+<img src="./img/bird_tex.png">
 
-## [5주차 완료 사항]
-## [6주차 완료 사항]
+### 스테이지 백그라운드
+<img src="./img/스테이지백그라운드.png">
+
+### UI
+<img src="./img/main_ui.png">
+<img src="./img/Button_ui.png">
+<img src="./img/Button_long_ui.png">
+<img src="./img/story_ui.png">
+<img src="./img/ESC_ui.png">
+<img src="./img/ESC_ui_long.png">
+<img src="./img/hp bar_all.png">
+<img src="./img/star.png">
+<img src="./img/star_empty.png">
+
+
+
+
+
+
+
+
+
 
 
