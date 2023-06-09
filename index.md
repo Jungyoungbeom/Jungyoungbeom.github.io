@@ -328,8 +328,6 @@
 <img src="./img/ESC_ui.png">
 <img src="./img/ESC_ui_long.png">
 <img src="./img/hp bar_all.png">
-<img src="./img/star.png">
-<img src="./img/star_empty.png">
 
 
 
